@@ -78,8 +78,13 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+  /* needed to clear the float from our 3 boxes so we can use padding on the footer below */
 }
 
 /** Navbar */
@@ -170,4 +175,24 @@ p {
 
 #home__info .home__info-content p {
   padding-bottom: 30px;
+}
+
+/** Features  */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/** Footer */
+#main__footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
